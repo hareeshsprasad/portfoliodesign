@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+/* body{
+    overflow-x:hidden ;
+} */
+section{
+    padding: 100px 0;
+}
+.home, .portfolio, .resume, .about, .contact, footer{
+    font-family: 'Poppins', sans-serif;
+}
+.home{
+    display: flex;
+    background: url(../images/home.jpg) no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .home-content .text-1{
+    font-size:7vw;   
+    margin-top: 150px; 
+    margin-left: 20px;
+    
+}
+.home .home-content .text-2{
+    font-size:6vh;   
+    margin-left: 20px;   
+}
+.home .home-content .text-3{
+    font-size:6vh; 
+    margin-left: 20px;
+   
+}
