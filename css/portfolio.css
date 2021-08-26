@@ -97,3 +97,42 @@ section{
 .btn-secondary:hover{
     background-color:#49555f;
 }
+.resume h2{
+    color: white;
+    font-weight: 800;
+    margin-bottom: 100px;    
+    padding: 10px;
+    text-align: center;
+}
+.education{
+    color: white;
+    font-weight: 800;
+    margin-bottom: 50px;    
+    padding-left: 72px;
+    padding-top: 20px;
+}
+.card{
+    margin: auto;
+    margin-top: 10px;
+    background-color: #333;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.7;
+    text-align: justify;
+    padding: 20px;    
+}
+.card-body{
+    color: white;
+    
+   
+}
+.course{
+   color: #7d9204;; 
+}
+.exp{
+    color: white;
+    font-weight: 800;    
+    margin-bottom: 50px;    
+    padding-left: 72px;
+    padding-top: 20px;
+}
